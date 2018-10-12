@@ -1,0 +1,68 @@
+.qoute-section {
+    display: flex;
+    flex-direction: column;
+    padding: 4px 0;
+    color: #13363a;
+    background-color: #b2e1e6;
+}
+
+.qoute-heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-right: 10px;
+}
+
+.qoute-heading a:hover {
+    text-decoration: none;
+}
+
+.qoute-content {
+    text-align: justify;
+    padding: 2px 20px;
+    font-size: .9em;
+    color: #19484d;
+}
+
+.qoute-footer {
+    display: flex;
+    justify-content: center;
+    color: #3eb9c7;
+    font-size: .7em;
+}
+
+.qoute-footer a {
+    color: #24838d;
+}
+
+textarea {
+    width: 100%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.info-box {
+    padding: 1rem 2rem;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.success {
+    background: lightgreen;
+    color: green;
+    border: 1px solid green;
+}
+
+.fail {
+    background: rgb(238, 180, 180);
+    color: red;
+    border: 1px solid red;
+}
+
+.warning {
+    background: rgb(226, 208, 173);
+    border: 1px solid rgb(247, 160, 0);
+}
